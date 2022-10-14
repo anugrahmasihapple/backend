@@ -4,7 +4,7 @@ const FoodSchema = new mongoose.Schema({
           foodName:{type: String, required: true,},
           daysSinceIAte:{type: String, required: true,},
           articleImage:{ 
-                      data: Buffer,
+                      data: String,
                       contentType: String,
           },
           likes:{type: Number, required: false},
